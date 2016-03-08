@@ -27,7 +27,7 @@ $(function() {
 		$("div.col-md-3:eq(-1)").css("background-color",colors[num]);
 	}
 	function submitValue() {
-		if(check = true) {
+		if(check == true) {
 			$newDiv = $("<div><img><label></label><img></div>")
 			$("div.row:eq(-1)").append($newDiv);
 			$("div:eq(-1)").attr("class","col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col xs-2 col-xs-offset-1");
